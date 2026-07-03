@@ -40,9 +40,12 @@ using Machine Learning (Linear SVM + TF-IDF).
 
     st.divider()
 
+    #initialize session state
+    if"message"not in st.session_state:
+        st.session_state.message=""
+
     message = st.text_area(
         "Enter your SMS Message",
-        value=st.session_state.message,
         height=150
     )
 
