@@ -3,13 +3,15 @@ name = "spamshield-ai"
 version = "1.0.0"
 description = "AI-Powered SMS Spam Detection System using Machine Learning, NLP, Streamlit, and SQLite."
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.14,<3.15"
 
 dependencies = [
     "streamlit",
     "scikit-learn",
+    "joblib",
+    "nltk",
     "pandas",
     "numpy",
     "plotly",
-    "joblib"
+    "scipy"
 ]

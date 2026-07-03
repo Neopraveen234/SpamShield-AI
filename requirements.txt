@@ -3,26 +3,17 @@
 # ==========================================
 
 # Web Application
-streamlit
+streamlit==1.58.0
 
 # Machine Learning
-scikit-learn
-joblib
-nltk
+scikit-learn==1.8.0
+joblib==1.5.3
+nltk==3.9.1
 
 # Data Processing
-pandas
-numpy
+pandas==2.3.1
+numpy==2.3.1
 
 # Data Visualization
-plotly
-
-# ==========================================
-# Built-in Python Modules (No Installation)
-# ==========================================
-# sqlite3
-# os
-# datetime
-# re
-# string
-# pickle
+plotly==6.2.0
+scipy==1.16.1
