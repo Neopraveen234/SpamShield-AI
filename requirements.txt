@@ -8,6 +8,7 @@ streamlit
 # Machine Learning
 scikit-learn
 joblib
+nltk
 
 # Data Processing
 pandas
