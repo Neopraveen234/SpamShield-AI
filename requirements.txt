@@ -1,0 +1,27 @@
+# ==========================================
+# SpamShield AI v1.0 Requirements
+# ==========================================
+
+# Web Application
+streamlit
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Data Processing
+pandas
+numpy
+
+# Data Visualization
+plotly
+
+# ==========================================
+# Built-in Python Modules (No Installation)
+# ==========================================
+# sqlite3
+# os
+# datetime
+# re
+# string
+# pickle
