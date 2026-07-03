@@ -26,6 +26,11 @@ if "prediction_saved" not in st.session_state:
 # ==========================================
 
 def home_page():
+    if "prediction_result" not in st.session_state:
+        st.session_state.prediction_result = None
+
+    if "message" not in st.session_state:
+        st.session_state.message = ""
 
     st.title("🛡️ SpamShield AI")
 
